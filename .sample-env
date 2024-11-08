@@ -1,0 +1,4 @@
+DB_URL=mysql://merico:merico@127.0.0.1:3306/lake?charset=utf8mb4&parseTime=True
+AZURE_OPENAI_API_KEY=
+AZURE_OPENAI_ENDPOINT=
+GOOGLE_APPLICATION_CREDENTIALS=
