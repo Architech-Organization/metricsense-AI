@@ -26,5 +26,5 @@ Start the FastAPI application:
 ## Example
 To get an engineering summary for all projects and priorities for the month of April 2024, use the following curl command:
 ```
-curl --location 'http://127.0.0.1:8000/v1/engineering/engineeringSummary?project=All&priority=All&month=2024-04'
+curl --location 'http://127.0.0.1:8000/v1/engineering/engineeringSummary?type=defects&project=All&priority=All&month=2024-04'
 ```

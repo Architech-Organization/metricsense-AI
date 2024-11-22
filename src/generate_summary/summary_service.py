@@ -4,5 +4,5 @@ from abc import abstractmethod
 class SummaryService:
 
     @abstractmethod
-    def generate_summary_for_critical_defects_identified(self, text: str) -> str:
+    def generate_summary_for_engineering(self, type: str,text: str) -> str:
         pass
