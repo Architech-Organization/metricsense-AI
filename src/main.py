@@ -11,7 +11,7 @@ app = FastAPI(
     title="Metrics AI API",
     version="v1",
 )
-summary_factory = SummaryFactory(config["azure_open_api"])
+summary_factory = SummaryFactory(config["gemini"])
 board_issue_service = BoardIssueService(database)
 engineering_router = EngineeringRouter(summary_factory, board_issue_service)
 app.include_router(engineering_router.router)
